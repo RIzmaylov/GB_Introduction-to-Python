@@ -34,6 +34,6 @@ def copying_contact():
 
 
     with open(f'Seminar_04_2\{name_file}.txt', 'a', encoding = 'UTF-8') as file:
-        file.write(contacts_list[num_of_contact - 1] + '\n')
+        file.write(contacts_list[num_of_contact - 1] + '\n\n')
 
     print('Данные скопированы!\n')
